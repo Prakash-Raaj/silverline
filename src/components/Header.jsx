@@ -26,17 +26,13 @@ const Header = (props) => {
           ) {
             return (
               <ul className="list-navBar">
-                <li className="list-item-special">
-                  <a href="#">{item}</a>
-                </li>
+                <li className="list-item-special">{item}</li>
               </ul>
             );
           } else {
             return (
               <ul className="list-navBar">
-                <li className="list-item">
-                  <a href="#">{item}</a>
-                </li>
+                <li className="list-item">{item}</li>
               </ul>
             );
           }
