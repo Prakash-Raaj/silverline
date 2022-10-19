@@ -10,9 +10,9 @@ const Connect = () => {
   const isLaptop = useMediaQuery({
     query: '(min-width:1023px)',
   });
-  const isMobile = useMediaQuery({
-    query: '(max-width:768px)',
-  });
+  // const isMobile = useMediaQuery({
+  //   query: '(max-width:768px)',
+  // });
   return (
     <div className="connect-wrapper">
       <div className="connect">
